@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ========== menu  ===========*/
+#menu {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    background-color: #0f0f0f;
+}
+
+#style-nav {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.menu-nav {
+    text-align: center;
+    line-height: 50px;
+
+}
+
+.menu-nav li {
+    display: inline-block;
+    padding-left: 2rem;
+}
+
+a.nav-acess {
+    text-decoration: none;
+    color: white;
+}
+
+/* ========== banner  ===========*/
+.banner {
+    background-image: url(./img/banner.jpg);
+    height: auto;
+    background-size: cover;
+    padding: 300px 0 700px 0;
+
+}
+
+.banner h2 {
+    font-family: 'Josefin Sans', 'Joan';
+    font-size: 3.2rem;
+    font-weight: 200;
+    color: white;
+    margin-left: 50%;
+    margin-top: 3%;
+}
+
+/* ========== apresentação  ===========*/
+#presentation {
+    margin: 0 20%;
+}
+
+.title-h2 {
+    font-family: 'Josefin Sans', 'Joan';
+    font-size: 3.2rem;
+    font-weight: 500;
+    text-align: center;
+    padding: 5% 0;
+}
+
+
+#presentation-chef-img {
+    float: left;
+
+}
+
+img.img-pres {
+    width: 380px;
+}
+
+#presentation-article {
+    max-width: 48%;
+    float: left;
+    margin-left: 30px;
+
+}
+
+#presentation-article p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    font-size: 1.2rem;
+    text-align: justify;
+    line-height: 2.8rem;
+    margin-bottom: 4%;
+
+}
+
+.clear {
+    clear: both;
+}
+
+.conheca {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.conheca-chefs {
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    padding: 10px;
+    background-color: rgba(136, 7, 7, 0.829);
+    text-decoration: none;
+
+}
+
+/* ========== cardapio  ===========*/
+
+#content-pratos {
+    background-color: #d4d4d1;
+}
+
+#pratos {
+    margin: 0% 20%;
+}
+
+.article-pratos {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    margin: 2% 2%;
+    padding-left: 15px;
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.img-pratos {
+    width: 300px;
+    height: 300px;
+}
+
+.article-pratos h3 p {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.pratos-text {
+    padding: 5px 0px;
+}
+
+/* ========== depoimento  ===========*/
+
+.depoiment {
+    margin: 0 20%;
+    padding-left: 4%
+}
+
+.depoiment-client {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    width: 300px;
+    height: 200px;
+    vertical-align: top;
+    display: inline-block;
+    padding: 8px;
+    margin: 6px;
+    box-shadow: 2px 2px 2px 2px #b6b4b4;
+}
+
+.dep-cli-name {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.dep-cli-text {
+    padding: 0 15px;
+    font-style: italic;
+    text-align: justify;
+    line-height: 1.3rem;
+}
+
+/* ========== reserva e maps ===========*/
+
+#maps-res {
+    margin-top: 50px;
+
+}
+
+
+.img-reserva {
+    background-image: url(https://images.pexels.com/photos/776538/pexels-photo-776538.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    width: 900px;
+    height: 750px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.maps-reserva {
+    display: inline-block;
+}
+
+.fundo {
+
+    background-color: #0f0f0f;
+    opacity: 0.9;
+    margin: 150px 190px;
+    border-radius: 20px;
+}
+
+.title-reserva {
+    font-family: 'Josefin Sans', 'Joan';
+    font-size: 50px;
+    font-weight: 200;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.text-res {
+    font-family: 'Josefin Sans', 'Joan';
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    padding: 4%;
+}
+
+a.lk-res:hover,
+a.lk-res:active {
+    text-decoration: underline;
+}
+
+.lk-res {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    line-height: 2rem;
+    color: white;
+    margin-left: 28%;
+}
+
+.article-res {
+    padding: 50px 0;
+
+}
+
+/* ============= footer ================= */
+
+#footer {
+    background-color: #0f0f0f;
+    color: #BABFC4;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    padding: 0 15%
+}
+
+.footer-section {
+    display: inline-block;
+    vertical-align: top;
+    padding: 80px;
+}
+
+.ft-conteudo li {
+    list-style-type: none;
+
+}
+
+.ft {
+    color: #838C95;
+    text-decoration: none;
+}
+
+a.ft:hover {
+    color: #cfd4d8;
+}
+
+.ft-title {
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.ft-uni {
+    color: #838C95;
+    max-width: 300px;
+}
+
+.ft-uni-ph {
+    margin-top: 15px;
+
+}
